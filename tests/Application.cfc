@@ -1,0 +1,8 @@
+component 
+{
+	
+	this.name="logboxMongoTests";
+	
+	
+	
+}

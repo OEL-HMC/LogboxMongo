@@ -1,6 +1,8 @@
 component extends="testbox.system.BaseSpec"
 {
 	
+	import "logboxmongo.*";
+	
 	function run(){
 		describe(
 			"basic tests",
@@ -9,14 +11,14 @@ component extends="testbox.system.BaseSpec"
 					"create an appender",
 					function(){
 						var app = new MongoAppender("test");
-						expect( getMetadata(local.app).fullname ).toBe( "MongoAppender" ); 
+						expect( getMetadata(local.app).fullname ).toBe( "logboxmongo.MongoAppender" ); 
 					}
 				);
 				it(
 					"create a config",
 					function(){
 						var app = new samples.SimpleConfig();
-						expect( getMetadata(local.app).fullname ).toBe( "samples.SimpleConfig" );
+						expect( getMetadata(local.app).fullname ).toBe( "logboxmongo.samples.SimpleConfig" );
 						
 						var err = false;
 						try{
