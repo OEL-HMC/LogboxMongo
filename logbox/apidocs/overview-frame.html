@@ -1,0 +1,116 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>	overview </title>
+	<meta name="keywords" content="overview">
+	
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel ="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<link rel ="stylesheet" type="text/css" href="stylesheet.css">
+	
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic|Ubuntu+Mono' rel='stylesheet' type='text/css' />
+	
+<script src="bootstrap/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	// Global Tool Tip Settings
+	$( '[title]' ).tooltip({
+		 animation: 'slide',
+		 delay: { show: 250, hide: 250 }
+	});
+});
+</script>
+	<link rel="stylesheet" href="jstree/themes/default/style.min.css" />
+</head>
+
+<body>
+	<h3><strong>logbox v4.3.0</strong></h3>
+
+	
+	<input type="text" id="classSearch" placeholder="Search..."><br><br>
+	
+	<div id="classTree">
+		<ul>
+			
+			<li data-jstree='{ "type" : "package" }' linkhref="" searchlist="logbox" thissort="1">logbox<ul><li data-jstree='{ "type" : "package" }' linkhref="" searchlist="system" thissort="1">system<ul><li data-jstree='{ "type" : "package" }' linkhref="logbox/system/logging/package-summary.html" searchlist="logging" thissort="1">logging<ul><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/LogBox.html" searchlist="logbox.system.logging.LogBox" thissort="2">LogBox</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/Logger.html" searchlist="logbox.system.logging.Logger" thissort="2">Logger</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/LogEvent.html" searchlist="logbox.system.logging.LogEvent" thissort="2">LogEvent</li><li data-jstree='{ "type" : "package" }' linkhref="logbox/system/logging/appenders/package-summary.html" searchlist="appenders" thissort="1">appenders<ul><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/appenders/ConsoleAppender.html" searchlist="logbox.system.logging.appenders.ConsoleAppender" thissort="2">ConsoleAppender</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/appenders/SocketAppender.html" searchlist="logbox.system.logging.appenders.SocketAppender" thissort="2">SocketAppender</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/appenders/ScopeAppender.html" searchlist="logbox.system.logging.appenders.ScopeAppender" thissort="2">ScopeAppender</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/appenders/EmailAppender.html" searchlist="logbox.system.logging.appenders.EmailAppender" thissort="2">EmailAppender</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/appenders/CFAppender.html" searchlist="logbox.system.logging.appenders.CFAppender" thissort="2">CFAppender</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/appenders/DBAppender.html" searchlist="logbox.system.logging.appenders.DBAppender" thissort="2">DBAppender</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/appenders/DummyAppender.html" searchlist="logbox.system.logging.appenders.DummyAppender" thissort="2">DummyAppender</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/appenders/FileAppender.html" searchlist="logbox.system.logging.appenders.FileAppender" thissort="2">FileAppender</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/appenders/RollingFileAppender.html" searchlist="logbox.system.logging.appenders.RollingFileAppender" thissort="2">RollingFileAppender</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/appenders/TracerAppender.html" searchlist="logbox.system.logging.appenders.TracerAppender" thissort="2">TracerAppender</li></ul></li><li data-jstree='{ "type" : "package" }' linkhref="logbox/system/logging/util/package-summary.html" searchlist="util" thissort="1">util<ul><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/util/FileRotator.html" searchlist="logbox.system.logging.util.FileRotator" thissort="2">FileRotator</li></ul></li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/Layout.html" searchlist="logbox.system.logging.Layout" thissort="2">Layout</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/LogLevels.html" searchlist="logbox.system.logging.LogLevels" thissort="2">LogLevels</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/AbstractAppender.html" searchlist="logbox.system.logging.AbstractAppender" thissort="2">AbstractAppender</li><li data-jstree='{ "type" : "package" }' linkhref="logbox/system/logging/config/package-summary.html" searchlist="config" thissort="1">config<ul><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/logging/config/LogBoxConfig.html" searchlist="logbox.system.logging.config.LogBoxConfig" thissort="2">LogBoxConfig</li></ul></li></ul></li><li data-jstree='{ "type" : "package" }' linkhref="" searchlist="core" thissort="1">core<ul><li data-jstree='{ "type" : "package" }' linkhref="logbox/system/core/util/package-summary.html" searchlist="util" thissort="1">util<ul><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/core/util/CFMappingHelper.html" searchlist="logbox.system.core.util.CFMappingHelper" thissort="2">CFMappingHelper</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/core/util/RailoMappingHelper.html" searchlist="logbox.system.core.util.RailoMappingHelper" thissort="2">RailoMappingHelper</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/core/util/FileUtils.html" searchlist="logbox.system.core.util.FileUtils" thissort="2">FileUtils</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/core/util/Util.html" searchlist="logbox.system.core.util.Util" thissort="2">Util</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/core/util/RequestBuffer.html" searchlist="logbox.system.core.util.RequestBuffer" thissort="2">RequestBuffer</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/core/util/CFMLEngine.html" searchlist="logbox.system.core.util.CFMLEngine" thissort="2">CFMLEngine</li></ul></li><li data-jstree='{ "type" : "package" }' linkhref="logbox/system/core/collections/package-summary.html" searchlist="collections" thissort="1">collections<ul><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/core/collections/ScopeStorage.html" searchlist="logbox.system.core.collections.ScopeStorage" thissort="2">ScopeStorage</li></ul></li><li data-jstree='{ "type" : "package" }' linkhref="logbox/system/core/conversion/package-summary.html" searchlist="conversion" thissort="1">conversion<ul><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/core/conversion/DataMarshaller.html" searchlist="logbox.system.core.conversion.DataMarshaller" thissort="2">DataMarshaller</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/core/conversion/XMLConverter.html" searchlist="logbox.system.core.conversion.XMLConverter" thissort="2">XMLConverter</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/core/conversion/ObjectMarshaller.html" searchlist="logbox.system.core.conversion.ObjectMarshaller" thissort="2">ObjectMarshaller</li></ul></li><li data-jstree='{ "type" : "package" }' linkhref="logbox/system/core/dynamic/package-summary.html" searchlist="dynamic" thissort="1">dynamic<ul><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/core/dynamic/BeanPopulator.html" searchlist="logbox.system.core.dynamic.BeanPopulator" thissort="2">BeanPopulator</li><li data-jstree='{ "type" : "component" }' linkhref="logbox/system/core/dynamic/MixerUtil.html" searchlist="logbox.system.core.dynamic.MixerUtil" thissort="2">MixerUtil</li></ul></li></ul></li></ul></li></ul></li>
+		</ul>
+	</div>
+	
+	<script src="jstree/jstree.min.js"></script>
+	<script language="javascript">
+		$(function () { 
+			// Initialize tree
+			$('#classTree')
+				.jstree({
+					// Shortcut types to control icons
+				    "types" : {
+				      "package" : {
+				        "icon" : "glyphicon glyphicon-folder-open"
+				      },
+				      "component" : {
+				        "icon" : "glyphicon glyphicon-file"
+				      },
+				      "interface" : {
+				        "icon" : "glyphicon glyphicon-info-sign"
+				      }
+				    },
+				    // Smart search callback to do lookups on full class name and aliases 
+				    "search" : {
+				    	"show_only_matches" : true,
+				    	"search_callback" : function( q, node ) {
+				    		q = q.toUpperCase();
+				    		var searchArray = node.li_attr.searchlist.split(',');
+				    		var isClass = node.li_attr.thissort != 1;
+				    		for( var i in searchArray ) {
+				    			var item = searchArray[ i ];
+				    			// classes must be a super set of the search string, but packages are reversed
+				    			// This is so "testbox" AND "run" highlight when you serach for "testbox run"
+				    			if( ( isClass && item.toUpperCase().indexOf( q ) > -1 )
+				    				|| ( !isClass && q.indexOf( item.toUpperCase() ) > -1 ) ) {
+				    				return true;
+				    			}
+				    		}
+				    		return false;
+				    	}
+				    },
+				    // Custom sorting to force packages to the top
+				    "sort" : function( id1, id2 ) {
+				    			var node1 = this.get_node( id1 );
+				    			var node2 = this.get_node( id2 );
+				    			// Concat sort to name and use that
+					    		var node1String = node1.li_attr.thissort + node1.text;
+					    		var node2String = node2.li_attr.thissort + node2.text;
+					    		
+								return ( node1String > node2String ? 1 : -1);						
+				    },
+				    "plugins" : [ "types", "search", "sort" ]
+				  })
+				.on("changed.jstree", function (e, data) {
+					var obj = data.instance.get_node(data.selected[0]).li_attr;
+					if( obj.linkhref ) {
+						window.parent.frames['classFrame'].location.href = obj.linkhref;					
+					}
+			});
+			
+			// Bind search to text box
+			var to = false;
+			$('#classSearch').keyup(function () {
+				if(to) { clearTimeout(to); }
+				to = setTimeout(function () {
+					var v = $('#classSearch').val();
+					$('#classTree').jstree(true).search(v);
+				}, 250);
+			});
+			
+		 });
+	</script>
+</body>
+</html>
