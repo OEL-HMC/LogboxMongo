@@ -1,4 +1,4 @@
-component extends="logbox.system.logging.AbstractAppender"    
+component output="false" extends="logbox.system.logging.AbstractAppender"    
 {
 	
 	property name="mongoClient" getter="true" setter="false"  ;
@@ -47,7 +47,7 @@ component extends="logbox.system.logging.AbstractAppender"
 		doc.put('timestamp', arguments.logEvent.getTimeStamp() );
 		doc.put('category', arguments.logEvent.getCategory() );
 		doc.put('message', arguments.logEvent.getMessage() );
-		doc.put('severity', arguments.logEvent.getSeverity() );
+		doc.put('severity', javacast("int",arguments.logEvent.getSeverity()) );
 		doc.put('extraInfo', arguments.logEvent.getExtraInfo() );
 		
 		
